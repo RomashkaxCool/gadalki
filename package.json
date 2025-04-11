@@ -1,13 +1,21 @@
 {
-  "name": " ",
+  "name": "gadalki",
   "version": "0.0.1",
-  "description": "",
   "private": true,
-  "keywords": [
-    ""
-  ],
-  "license": "",
-  "author": "",
+  "description": "website about gadalki",
+  "keywords": [],
+  "homepage": "https://github.com/RomashkaxCool/gadalki#readme",
+  "bugs": {
+    "url": "https://github.com/RomashkaxCool/gadalki/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomashkaxCool/gadalki.git"
+  },
+  "license": "ISC",
+  "author": "roman",
+  "type": "commonjs",
+  "main": "webpack.common.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config webpack.config.dev.js",
@@ -15,6 +23,7 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
+    "gulp": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
