@@ -75,12 +75,31 @@ body {
 .hero {
   align-items: center;
 }
+.hero-background-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .hero-background {
   display: block;
-  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-
+  width: auto;
+  margin: 0;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
